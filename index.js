@@ -8,5 +8,4 @@ const config = {
     torrentPass: () => process.env.PURGE_TORRENTS_PASS || '',
     torrentAuth: () => process.env.PURGE_TORRENTS_AUTH || '',
 };
-
 console.log(`${config.torrentAmount()}`);
